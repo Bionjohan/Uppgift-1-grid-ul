@@ -1,0 +1,33 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr auto 1fr;
+}
+.logo{
+    height: 200px;
+    width: auto;
+}
+.logo,header,article,footer,nav,main{
+ border: solid black 3px;
+ border-radius: 5px;
+ margin: 10px;
+}
+header{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+article{
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
+nav{
+    padding: 5px;
+}
